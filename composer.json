@@ -8,7 +8,8 @@
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
         "guzzlehttp/guzzle": "^6.2",
-        "graze/dog-statsd": "^0.2.0"
+        "graze/dog-statsd": "^0.2.0",
+        "smalot/pdfparser": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -19,7 +20,8 @@
     },
     "autoload": {
         "classmap": [
-            "database"
+            "database",
+            "app/Models"
         ],
         "psr-4": {
             "App\\": "app/"
