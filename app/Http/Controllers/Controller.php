@@ -13,6 +13,8 @@ class Controller extends BaseController
 
     public function ddtest()
     {
-        \Datadogstatsd::increment('test');
+        \Datadogstatsd::increment('laravel_test.ddtest');
+        \Datadogstatsd::increment('ddtest');
+        \Datadogstatsd::increment('newmetric');
     }
 }

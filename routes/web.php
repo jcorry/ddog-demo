@@ -17,4 +17,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/dd-test', 'TestController@ddtest');
+Route::get('/dd-test', 'Controller@ddtest');
